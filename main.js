@@ -12,6 +12,6 @@ var max = Math.floor(11)
 
   $('#thebutton').click(function() {
     $('#answer').empty()
-    $('#answer').append(answerArray[(Math.floor(Math.random() * (max - min + 1)) + min)])
+    $('#answer').append(answerArray[(Math.floor(Math.random() * (max - min + 1)) + min)] + '&nbsp;')
   })
 })
