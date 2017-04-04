@@ -6,6 +6,9 @@ html {
   min-width: 100%;
 }
 
+body {
+  font-family: 'Inconsolata', monospace !important;
+}
 .examplething {
     padding: 1em;
     -webkit-border-radius: 2px;
